@@ -43,14 +43,6 @@
 (slime-setup)
 (slime-autodoc-mode)
 
-
-;;; hyperspec
-(setq common-lisp-hyperspec-root
-      (concat "file://" "/usr/share/doc/hyperspec/"))
-(setq common-lisp-hyperspec-symbol-table
-      (concat common-lisp-hyperspec-root
-              "Data/Map_Sym.txt"))
-
 (auto-install-package 'paredit-mode)
 (require 'paredit-mode)
 
